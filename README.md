@@ -1,4 +1,4 @@
-# js-challenges-answer
+# bagu-of-fe
 
 本仓库包含各种前端问题的答案
 
