@@ -4,7 +4,7 @@ import { sidebarHTMLAndCSS } from "./HTMLAndCSSSidebar";
 export default defineConfig({
   title: "前端八股文",
   description: "前端领域的各种问题",
-  base: './',
+  base: process.env.base || '',
   head: [
     [
       "link",
