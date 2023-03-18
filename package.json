@@ -1,0 +1,25 @@
+{
+  "name": "bagu-of-fe",
+  "version": "1.0.0",
+  "description": "本仓库包含各种前端问题的答案",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivipure/bagu-of-fe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivipure/bagu-of-fe/issues"
+  },
+  "homepage": "https://github.com/vivipure/bagu-of-fe#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.60"
+  }
+}
