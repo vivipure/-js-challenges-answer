@@ -4,7 +4,7 @@ on:
     branches: 
       - main
 env:
-  base: ${{ vars.base }}
+  base: /bagu-of-fe
 
 jobs:
   build-and-deploy:
