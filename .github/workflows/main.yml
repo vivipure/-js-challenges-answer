@@ -3,6 +3,8 @@ on:
   push: 
     branches: 
       - main
+env:
+  base: ${{ vars.base }}
 
 jobs:
   build-and-deploy:
