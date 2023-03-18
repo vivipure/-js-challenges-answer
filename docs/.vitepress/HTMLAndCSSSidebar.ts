@@ -4,37 +4,30 @@ export function sidebarHTMLAndCSS() {
       text: "HTML",
       collapsed: false,
       items: [
-        { text: "什么是HTML?", link: "/html/index" },
-        { text: "标签", link: "/html/element" },
-        { text: "SEO", link: "/html/seo" },
-        { text: "Deploy", link: "/html/deploy" },
+        { text: "什么是HTML?", link: "/basic/html/index" },
+        { text: "标签", link: "/basic/html/element" },
+        { text: "SEO", link: "/basic/html/seo" },
       ],
     },
     {
       text: "CSS",
       collapsed: false,
       items: [
-        { text: "什么是CSS？", link: "/html/markdown" },
-        { text: "定位", link: "/html/asset-handling" },
-        { text: "盒模型", link: "/html/frontmatter" },
-        { text: "flex 布局", link: "/html/using-vue" },
-        { text: "grid 布局", link: "/html/i18n" },
-        { text: "z-index", link: "/html/i18n" },
-      ],
-    },
-    {
-      text: "Experimental",
-      collapsed: false,
-      items: [
+        { text: "什么是CSS？", link: "/basic/css/index" },
+        { text: "position", link: "/basic/css/position" },
+        { text: "选择器", link: "/basic/css/selector" },
+        { text: "盒模型", link: "/basic/css/borderbox" },
+        { text: "flex 布局", link: "/basic/css/flex" },
+        { text: "grid 布局", link: "/basic/css/grid" },
+        { text: "z-index", link: "/basic/css/zindex" },
+        { text: "BFC", link: "/basic/css/bfc" },
+        { text: "float", link: "/basic/css/bfc" },
         {
-          text: "MPA Mode",
-          link: "/html/mpa-mode",
+          text: "其他",
+          collapsed: false,
+          items: [{ text: "CSS中的隐藏", link: "/basic/css/extra/display-visibility-opacity" }],
         },
       ],
-    },
-    {
-      text: "Config & API Reference",
-      link: "/reference/site-config",
     },
   ];
 }

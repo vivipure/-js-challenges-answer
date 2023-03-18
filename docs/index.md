@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /html/index
+      link: /basic/html/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/vivipure/bagu-of-fe

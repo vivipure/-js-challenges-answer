@@ -3,9 +3,8 @@ title: 什么是HTML
 lang: zh-CN
 ---
 
-# 什么是HTML
+# 什么是HTML?
 
-## HTML
 
 HTML(超文本标记语言)，使用标记描述页面上的元素和内容，用于创建 web 页面。
 

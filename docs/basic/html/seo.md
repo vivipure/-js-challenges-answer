@@ -21,7 +21,7 @@ SEO(搜索引擎优化)，通过网站内容和结构的优化，提高网站在
 ```html
 <meta  name="description" content="...">
 
-<meta  data-hid="keywords" name="keywords" content="...">
+<meta  name="keywords" content="...">
 ```
 关键词和描述 需要尽可能准确，精简
 

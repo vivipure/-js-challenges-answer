@@ -5,10 +5,13 @@ export default defineConfig({
   title: "前端八股文",
   description: "前端领域的各种问题",
   head: [
-    ['link', {
-      rel: 'icon',
-      href: '/favicon.ico'
-    }]
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/favicon.ico",
+      },
+    ],
   ],
   themeConfig: {
     footer: {
@@ -16,13 +19,17 @@ export default defineConfig({
       copyright: "Copyright © 2023-present Funkun",
     },
     nav: [
-        { text: 'HTML/CSS', link: '/html/index',activeMatch: '/html' },
-        { text: 'JS/TS', link: '/javscript/index',activeMatch: '/javscript' },
-        { text: '框架', link: '/framework' },
-        { text: '网络', link: '/network' },
+      {
+        text: "HTML/CSS",
+        link: "/basic/html/index",
+        activeMatch: '/basic',
+      },
+      { text: "JS/TS", link: "/javscript/index", activeMatch: "/javscript" },
+      { text: "框架", link: "/framework" },
+      { text: "网络", link: "/network" },
     ],
     sidebar: {
-        '/html/': sidebarHTMLAndCSS()
-    }
+      "/basic/": sidebarHTMLAndCSS(),
+    },
   },
 });
