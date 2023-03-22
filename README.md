@@ -5,4 +5,5 @@
 题目来源：
 1. https://github.com/Sunny-117/js-challenges
 2. https://github.com/57code/vue-interview
+3. https://github.com/pwstrick/daily
 
