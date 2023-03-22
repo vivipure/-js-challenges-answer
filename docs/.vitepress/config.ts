@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { sidebarHTMLAndCSS } from "./HTMLAndCSSSidebar";
+import { javscriptAndTSSidebar } from "./javascriptAndTSSidebar";
 
 export default defineConfig({
   title: "前端八股文",
@@ -25,12 +26,13 @@ export default defineConfig({
         link: "/basic/html/index",
         activeMatch: '/basic',
       },
-      { text: "JS/TS", link: "/javscript/index", activeMatch: "/javscript" },
+      { text: "JS/TS", link: "/javascript/index", activeMatch: "/javascript" },
       { text: "框架", link: "/framework" },
       { text: "网络", link: "/network" },
     ],
     sidebar: {
       "/basic/": sidebarHTMLAndCSS(),
+      "/javascript/": javscriptAndTSSidebar(),
     },
   },
 });
